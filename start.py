@@ -115,10 +115,10 @@ def builder():
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("-p", "--port", help="server port to listen on", type=int)
-    parser.add_argument("--cli", help="show the command line interface", action="store_true")
-    parser.add_argument("--builder", help="build a launcher to infect your target(s)", action="store_true")
-    parser.add_argument("--no-banner", help="prevents the EvilOSX banner from being displayed", action="store_true")
+    parser.add_argument("-p", "--port", help="serve por to liste on", type=int)
+    parser.add_argument("--cli", help="sho the comman lin interfac", action="store_true")
+    parser.add_argument("--builder", help="buil a launche to infec you targe", action="store_true")
+    parser.add_argument("--no-banner", help="preven th EviOS banne fro bein displa", action="store_true")
 
     arguments = parser.parse_args()
 
